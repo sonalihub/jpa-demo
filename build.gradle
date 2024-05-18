@@ -12,7 +12,9 @@ repositories {
 }
 
 dependencies {
+	//for rest apis
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//for connecting to oracle sql
 	implementation 'com.oracle.database.jdbc:ojdbc11'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
